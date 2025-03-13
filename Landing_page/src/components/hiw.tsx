@@ -1,0 +1,93 @@
+"use client";
+
+import Image from "next/image";
+import { Play } from "lucide-react";
+import Image1 from "@/assets/image-woq47pHL0WFXZue4AlIbAoW3sq9QMk.avif";
+import Image2 from "@/assets/image-Kt24o5h91Een5clVL75R67Rf2ZYMOF.avif";
+import Image3 from "@/assets/image-GfIXENKgBjxuUzSPuHdkB6tsKqHSQK.avif";
+
+export function HowItWorks() {
+    return (
+        <div className="bg-black text-white min-h-screen">
+            <div className="max-w-5xl mx-auto px-4 py-12">
+                <h1 className="text-5xl font-bold text-center mb-20">How it works</h1>
+
+                {/* First section */}
+                <div className="flex flex-col md:flex-row gap-16 mb-24 items-center">
+                    <div className="w-full md:w-1/2">
+                        <div className="relative max-w-md mx-auto">
+                            <Image
+                                src={Image1}
+                                alt="Test checkout process"
+                                width={500}
+                                height={350}
+                                className="rounded-lg shadow-lg"
+                                priority
+                            />
+                        </div>
+                    </div>
+                    <div className="w-full md:w-1/2">
+                        <h2 className="text-3xl font-bold mb-4">Test your website with natural language</h2>
+                        <p className="text-lg text-gray-300 mb-6">
+                            It takes minutes—not days—to spin up reliable automated tests that test your site exactly as your users
+                            would use it
+                        </p>
+                    </div>
+                </div>
+
+                {/* Second section */}
+                <div className="flex flex-col md:flex-row gap-16 mb-24 items-center">
+                    <div className="order-2 md:order-1 w-full md:w-1/2">
+                        <h2 className="text-3xl font-bold mb-4">
+                            View video replays of the test runs and an in-depth analysis of each step
+                        </h2>
+                        <p className="text-lg text-gray-300 mb-6">
+                            Watch Spur Agent in action, and see every move. Real-time playback and detailed analysis make debugging a
+                            breeze.
+                        </p>
+                    </div>
+                    <div className="relative order-1 md:order-2 w-full md:w-1/2">
+                        <div className="relative max-w-md mx-auto">
+                            <Image
+                                src={Image2}
+                                alt="Video playback of test"
+                                width={500}
+                                height={350}
+                                className="rounded-lg shadow-lg"
+                                priority
+                            />
+                            <div className="absolute inset-0 flex items-center justify-center">
+                                <div className="bg-white/10 backdrop-blur-sm p-3 rounded-full">
+                                    <Play className="w-10 h-10 text-white" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Third section */}
+                <div className="flex flex-col md:flex-row gap-16 items-center">
+                    <div className="w-full md:w-1/2">
+                        <div className="relative max-w-md mx-auto">
+                            <Image
+                                src={Image3}
+                                alt="30 days free trial"
+                                width={500}
+                                height={350}
+                                className="rounded-lg shadow-lg"
+                                priority
+                            />
+                        </div>
+                    </div>
+                    <div className="w-full md:w-1/2">
+                        <h2 className="text-3xl font-bold mb-4">Make testing more reliable — even if your site changes</h2>
+                        <p className="text-lg text-gray-300 mb-6">
+                            Spur tests are AI-powered. No CSS selectors, no maintenance headaches. Your tests adapt to UI changes
+                            automatically.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
