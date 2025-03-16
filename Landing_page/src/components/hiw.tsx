@@ -5,6 +5,7 @@ import { Play } from "lucide-react";
 import Image1 from "@/assets/image-woq47pHL0WFXZue4AlIbAoW3sq9QMk.avif";
 import Image2 from "@/assets/image-Kt24o5h91Een5clVL75R67Rf2ZYMOF.avif";
 import Image3 from "@/assets/image-GfIXENKgBjxuUzSPuHdkB6tsKqHSQK.avif";
+import { CheckboxCapsules } from "@/components/checkbox-capsules";
 
 export function HowItWorks() {
     return (
@@ -16,14 +17,7 @@ export function HowItWorks() {
                 <div className="flex flex-col md:flex-row gap-16 mb-24 items-center">
                     <div className="w-full md:w-1/2">
                         <div className="relative max-w-md mx-auto">
-                            <Image
-                                src={Image1}
-                                alt="Test checkout process"
-                                width={500}
-                                height={350}
-                                className="rounded-lg shadow-lg"
-                                priority
-                            />
+                            <CheckboxCapsules />
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
