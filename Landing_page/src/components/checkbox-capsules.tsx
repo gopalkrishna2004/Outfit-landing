@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export function CheckboxCapsules() {
-  const [selected, setSelected] = useState("Casual");
+  const [selected, setSelected] = useState("retro");
 
   return (
     <div className="bg-black py-4 w-full">

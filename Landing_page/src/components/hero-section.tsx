@@ -3,7 +3,7 @@
 import { ActionButton } from "./action-button";
 import { Search, Code, MessageSquare, BrainCircuit, Database } from "lucide-react";
 import Image from "next/image";
-import HeroGif from "@/assets/ezgif.com-optimize.gif";
+import HeroGif from "@/assets/outfit_gif.gif";
 
 export function HeroSection() {
     return (
