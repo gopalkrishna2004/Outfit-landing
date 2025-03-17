@@ -3,9 +3,11 @@
 import Image from "next/image";
 import { Play } from "lucide-react";
 import Image1 from "@/assets/image-woq47pHL0WFXZue4AlIbAoW3sq9QMk.avif";
-import Image2 from "@/assets/image-Kt24o5h91Een5clVL75R67Rf2ZYMOF.avif";
-import Image3 from "@/assets/image-GfIXENKgBjxuUzSPuHdkB6tsKqHSQK.avif";
-import { CheckboxCapsules } from "@/components/checkbox-capsules";
+import Image2 from "@/assets/wardrobe_cropped.png";
+import Image3 from "@/assets/outfit (2).png";
+
+
+import { CheckboxCapsules } from "@/components/checkbox-capsules"
 
 export function HowItWorks() {
     return (
@@ -50,25 +52,20 @@ export function HowItWorks() {
                                 className="rounded-lg shadow-lg"
                                 priority
                             />
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="bg-white/10 backdrop-blur-sm p-3 rounded-full">
-                                    <Play className="w-10 h-10 text-white" />
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
 
                 {/* Third section */}
                 <div className="flex flex-col md:flex-row gap-16 items-center">
-                    <div className="w-full md:w-1/2">
-                        <div className="relative max-w-md mx-auto">
+                    <div className="w-full md:w-1/2 flex justify-center">
+                        <div className="relative">
                             <Image
                                 src={Image3}
                                 alt="30 days free trial"
-                                width={500}
-                                height={350}
-                                className="rounded-lg shadow-lg"
+                                width={400}
+                                height={400}
+                                className="w-40 sm:w-48 md:w-56 lg:w-64 h-auto rounded-lg shadow-lg"
                                 priority
                             />
                         </div>
