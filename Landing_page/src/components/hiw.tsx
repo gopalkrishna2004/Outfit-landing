@@ -118,10 +118,10 @@ export function HowItWorks() {
                 <div className="flex flex-col md:flex-row gap-16 mb-24 items-center">
                     <div className="order-2 md:order-1 w-full md:w-1/2">
                         <h2 className="text-3xl font-bold mb-4">
-                        Snap, Upload & Build Your Digital Wardrobe Take a quick snap or upload from your gallery
+                        Snap, Upload &amp; Build Your Digital Wardrobe Take a quick snap or upload from your gallery
                         </h2>
                         <p className="text-lg text-gray-300 mb-6">
-                        your entire wardrobe, now at your fingertips! No more "I have nothing to wear" moments—your closet is now just a click away!
+                        your entire wardrobe, now at your fingertips! No more &quot;I have nothing to wear&quot; moments—your closet is now just a click away!
                         </p>
                     </div>
                     <div className="relative order-1 md:order-2 w-full md:w-1/2">
@@ -155,7 +155,7 @@ export function HowItWorks() {
                     <div className="w-full md:w-1/2">
                         <h2 className="text-3xl font-bold mb-4">Fashion made simple — design your perfect look anytime</h2>
                         <p className="text-lg text-gray-300 mb-6">
-                        Easily combine your favorite pieces to create fresh, stylish outfits. Whether you're going bold or keeping it chill, endless possibilities are just a tap away!
+                        Easily combine your favorite pieces to create fresh, stylish outfits. Whether you&apos;re going bold or keeping it chill, endless possibilities are just a tap away!
                         </p>
                     </div>
                 </div>
