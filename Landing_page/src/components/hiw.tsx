@@ -107,10 +107,9 @@ export function HowItWorks() {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
-                        <h2 className="text-3xl font-bold mb-4">Test your website with natural language</h2>
+                        <h2 className="text-3xl font-bold mb-4">Choose the styles that match your vibe</h2>
                         <p className="text-lg text-gray-300 mb-6">
-                            It takes minutes—not days—to spin up reliable automated tests that test your site exactly as your users
-                            would use it
+                        Discover your vibe easily with our style picks—casual, classic, retro, and more. Select what you love, and let us create outfit ideas tailored just for you!
                         </p>
                     </div>
                 </div>
@@ -119,11 +118,10 @@ export function HowItWorks() {
                 <div className="flex flex-col md:flex-row gap-16 mb-24 items-center">
                     <div className="order-2 md:order-1 w-full md:w-1/2">
                         <h2 className="text-3xl font-bold mb-4">
-                            View video replays of the test runs and an in-depth analysis of each step
+                        Snap, Upload & Build Your Digital Wardrobe Take a quick snap or upload from your gallery
                         </h2>
                         <p className="text-lg text-gray-300 mb-6">
-                            Watch Spur Agent in action, and see every move. Real-time playback and detailed analysis make debugging a
-                            breeze.
+                        your entire wardrobe, now at your fingertips! No more "I have nothing to wear" moments—your closet is now just a click away!
                         </p>
                     </div>
                     <div className="relative order-1 md:order-2 w-full md:w-1/2">
@@ -155,10 +153,9 @@ export function HowItWorks() {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
-                        <h2 className="text-3xl font-bold mb-4">Make testing more reliable — even if your site changes</h2>
+                        <h2 className="text-3xl font-bold mb-4">Fashion made simple — design your perfect look anytime</h2>
                         <p className="text-lg text-gray-300 mb-6">
-                            Spur tests are AI-powered. No CSS selectors, no maintenance headaches. Your tests adapt to UI changes
-                            automatically.
+                        Easily combine your favorite pieces to create fresh, stylish outfits. Whether you're going bold or keeping it chill, endless possibilities are just a tap away!
                         </p>
                     </div>
                 </div>
