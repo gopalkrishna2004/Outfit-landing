@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://outfit-ur-stylist.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Foutfit_gif.9d6f379b.gif&w=3840&q=75",
+        url: "https://drive.google.com/file/d/1Wl-p9q5c2F6TNqGzqlFWd23sGTiRiicT/view?usp=sharing",
       },
     ],
   },
