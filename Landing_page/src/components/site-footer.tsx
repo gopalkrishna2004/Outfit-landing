@@ -11,8 +11,8 @@ export default function SiteFooter() {
                 <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
 
                     <section className={"flex items-center gap-3"}>
-                        <div className={"border size-8 rounded-lg inline-flex items-center justify-center"}>
-                            <SiteLogo className={"size-6 h-auto"}/>
+                        <div className={"size-12 rounded-lg inline-flex items-center justify-center"}>
+                            <SiteLogo className={"size-10 h-auto rounded-lg"}/>
                         </div>
                         <p className={"font-medium"}>OUTFIT</p>
                     </section>

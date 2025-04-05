@@ -246,8 +246,8 @@ export default function SiteHeader() {
                 <div className={"container max-md:px-4"}>
                     <div className={"flex items-center justify-between border p-2.5 rounded-xl max-w-2xl mx-auto backdrop-blur-sm bg-black/30"}>
                         <Link href={"/"}>
-                            <div className={"border size-10 rounded-lg inline-flex items-center justify-center"}>
-                                <SiteLogo className={"size-8 h-auto"} />
+                            <div className={"size-12 rounded-lg inline-flex items-center justify-center"}>
+                                <SiteLogo className={"size-10 h-auto rounded-lg"} />
                             </div>
                         </Link>
                         <section className={"max-md:hidden"}>
