@@ -12,9 +12,9 @@ export default function SiteFooter() {
 
                     <section className={"flex items-center gap-3"}>
                         <div className={"size-12 rounded-lg inline-flex items-center justify-center"}>
-                            <SiteLogo className={"size-10 h-auto rounded-lg"}/>
+                            <SiteLogo className={"size-12 h-auto rounded-lg"}/>
                         </div>
-                        <p className={"font-medium"}>OUTFIT</p>
+                        <p className={"font-medium font-outfit text-2xl"}>outfit</p>
                     </section>
 
 

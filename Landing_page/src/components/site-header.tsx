@@ -247,7 +247,7 @@ export default function SiteHeader() {
                     <div className={"flex items-center justify-between border p-2.5 rounded-xl max-w-2xl mx-auto backdrop-blur-sm bg-black/30"}>
                         <Link href={"/"}>
                             <div className={"size-12 rounded-lg inline-flex items-center justify-center"}>
-                                <SiteLogo className={"size-10 h-auto rounded-lg"} />
+                                <SiteLogo className={"size-12 h-auto rounded-lg"} />
                             </div>
                         </Link>
                         <section className={"max-md:hidden"}>
@@ -272,7 +272,7 @@ export default function SiteHeader() {
                                         <div className={"border size-8 rounded-lg inline-flex items-center justify-center"}>
                                             <SiteLogo className={"size-6 h-auto"}/>
                                         </div>
-                                        <p className={"font-bold"}>OUTFIT</p>
+                                        <p className={"font-bold "}>OUTFIT</p>
                                     </div>
                                     <div className={"mt-8 mb-4"}>
                                         <nav className={"grid gap-4 items-center text-lg"}>
