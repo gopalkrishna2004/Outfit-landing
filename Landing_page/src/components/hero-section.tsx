@@ -150,7 +150,7 @@ export function HeroSection() {
                             </form>
                         ) : (
                             <div className="bg-green-500/20 border border-green-500/30 rounded-lg p-4">
-                                <p className="text-green-400">Thanks for joining our waitlist! We'll notify you when we launch.</p>
+                                <p className="text-green-400">Thanks for joining our waitlist! We&apos;ll notify you when we launch.</p>
                             </div>
                         )}
                     </div>
