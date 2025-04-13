@@ -127,7 +127,7 @@ export function HeroSection() {
                     <div className="mt-8 max-w-md">
                         {!isSubmitted ? (
                             <form onSubmit={handleSubmit} className="flex flex-col space-y-3">
-                                <div className="flex flex-col space-y-3">
+                                <div className="flex flex-col sm:flex-row sm:space-x-2 space-y-3 sm:space-y-0">
                                     <input 
                                         type="email" 
                                         value={email}
@@ -137,20 +137,17 @@ export function HeroSection() {
                                         disabled={isSubmitting}
                                         required
                                     />
-                                    <div className="w-full">
-                                        <ActionButton 
-                                            label={isSubmitting ? "Joining..." : "Join Waitlist"}
-                                            type="submit"
-                                            disabled={isSubmitting}
-                                            className="w-full"
-                                        />
-                                    </div>
+                                    <ActionButton 
+                                        label={isSubmitting ? "Joining..." : "Join Waitlist"}
+                                        type="submit"
+                                        disabled={isSubmitting}
+                                    />
                                 </div>
                                 {error && <p className="text-red-400 text-sm">{error}</p>}
                             </form>
                         ) : (
                             <div className="bg-green-500/20 border border-green-500/30 rounded-lg p-4">
-                                <p className="text-green-400">Thanks for joining our waitlist! We&apos;ll notify you when we launch.</p>
+                                <p className="text-green-400">Thanks for joining our waitlist! We'll notify you when we launch.</p>
                             </div>
                         )}
                     </div>
